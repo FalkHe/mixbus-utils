@@ -34,6 +34,11 @@ KEY 4 Tog   Off
 ```
 ... or change at will in your config an the .map File
 
+### Read further
+* [About Midi Control Bindings](https://manual.ardour.org/using-control-surfaces/generic-midi/midi-binding-maps/)
+* [List of Menu Actions](https://manual.ardour.org/appendix/menu-actions-list/)
+
+
 ### Todo
 * Would be cool to have the Play Button with feedback (on/off) incl. LED on/off i.E.
   * 1st Push > Play (LED on)
