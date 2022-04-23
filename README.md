@@ -13,10 +13,11 @@ Button 4: Jump To Next Marker
 ### Setup
 
 You need to Configure a Custom Setting on the MP100 as follows:
-*MIDI.CH*
-7 CUS1 CH   13
-*CUS-1*
 ```
+[MIDI.CH]
+7 CUS1 CH   13
+
+[CUS-1]
 ...
 KEY 1 MOD   CC#
 KEY 1 CC#   1
@@ -35,8 +36,8 @@ KEY 4 Tog   Off
 
 ### Todo
 * Would be cool to have the Play Button with feedback (on/off) incl. LED on/off i.E.
-* * Push > Play (LED on)
-* * Push > Pause (LED off)
+  * 1st Push > Play (LED on)
+  * 2nd Push > Pause (LED off)
 
 ## Session Script
 
