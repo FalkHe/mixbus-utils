@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ArdourMIDIBindings version="1.1.0" name="HarleyBenton MP100">
-  <Binding channel="13" ctl="1" function="transport-roll"/><!-- PLAY -->
-  <Binding channel="13" ctl="2" function="transport-stop"/><!-- STOP -->
-  <Binding channel="13" ctl="3" action="Common/jump-backward-to-mark"/><!-- Previous Mark -->
-  <Binding channel="13" ctl="4" action="Common/jump-forward-to-mark"/><!-- Next Mark -->
+  <Binding channel="13" ctl="1" function="loop-toggle"/><!-- LOOP TOGGLE -->
+  <Binding channel="13" ctl="2" function="toggle-rec-enable"/><!-- REC TOGGLE -->
+  <Binding channel="13" ctl="3" function="rec-enable"/><!-- REC ON -->
+  <Binding channel="13" ctl="4" function="rec-disable"/><!-- REC OFF -->
+  <Binding channel="13" ctl="5" action="Common/jump-backward-to-mark"/><!-- Previous Mark -->
+  <Binding channel="13" ctl="6" function="transport-stop"/><!-- STOP -->
+  <Binding channel="13" ctl="7" function="transport-roll"/><!-- PLAY-->
+  <Binding channel="13" ctl="8" action="Common/jump-forward-to-mark"/><!-- Next Mark -->
 </ArdourMIDIBindings>
